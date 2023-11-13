@@ -384,7 +384,13 @@ form>button{
     /* border: 2px solid white; */
     height: 15rem;
     border-radius: 25px;
+    /* object-fit: cover; */
     background-color: #c8c6c6;
+}
+
+.image>img{
+    width: 100%;
+    border-radius: 25px;
 }
 
 .secSix{
@@ -497,5 +503,119 @@ li{
 {
     opacity: .5;
 }
+
+.secTwo{
+    height: 120vh;
+}
+
+.secThree{
+    position: relative;
+}
+
+#serviceWrapper{
+    padding-top: 1rem;
+    position: absolute;
+    top: -13rem;
+    left: 12.7rem;
+}
+
+.secFour{
+    height: 85vh;
+    position: relative;
+}
+
+#contactWrapper{
+    position: absolute;
+    top: -15rem;
+    left: 12.7rem;
+    width: 1500px;
+}
+
+.secFive{
+    position: relative;
+}
+
+#workWrapper{
+    position: absolute;
+    top: -27rem;
+    left: 12.7rem;
+}
+
+.sectionZero{
+    height: 95vh;
+}
+
+.secSix{
+    margin-top: 30rem;
+    position: relative;
+    height: 55vh;
+}
+
+.secSeven{
+    background-color: #fd4853;
+}
+
+#priceWrapper{
+    position: absolute;
+    top: -27rem;
+    left: 12.7rem;
+}
+
+#footerWrapper{
+    width: 100%;
+    padding-top: 4rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerWrapper>h1{
+    color: white;
+    margin-left: 44rem;
+}
+
+.footerLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footerLinks>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 2rem;
+}
+.footerIcon{
+    padding-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footerIcon>i{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+}
+
+.footerBottom{
+    /* opacity: .5; */
+    width: 1470px;
+    border-top: 2px solid #fb8082;
+    padding-block: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerBottom>p{
+    color: white;
+    font-size: 1.5rem;
+}
+
 
 
